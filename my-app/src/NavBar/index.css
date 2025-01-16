@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-content li {
+    margin: 20px;
+    display: inline-block;
+    list-style: none;
+}
