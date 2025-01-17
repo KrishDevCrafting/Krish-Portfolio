@@ -1,16 +1,20 @@
 import React from "react";
+import img from "../Assets/love.jpg";
+import "./index.css";
 const Main = () => {
   return (
     <>
-      <div>
+      <div className="container">
+        <div>
         <h1>I'm Krish</h1>
 
-        <div>
-          <h4>I'm Developer!</h4>
-        </div>
+        <h4>I'm Developer!</h4>
 
+        <button type="button">Get in touch--</button></div>
         <div>
-          <button type="button">Get in touch--</button>
+          <span>
+            <img src={img} alt="" srcset="" id="img-size" />
+          </span>
         </div>
       </div>
     </>

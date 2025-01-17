@@ -1,5 +1,5 @@
 import React from "react";
-import App from "./App";
+
 import Main from "./home/Main";
 import Nav from "./NavBar";
 import ReactDOM from "react-dom/client";
@@ -8,6 +8,5 @@ root.render(
   <React.StrictMode>
     <Nav />
     <Main />
-    <App />
   </React.StrictMode>
 );

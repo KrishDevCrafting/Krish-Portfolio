@@ -1,0 +1,10 @@
+#img-size{
+    width: 50%;
+    height: auto;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    justify-content:space-evenly;
+
+}
