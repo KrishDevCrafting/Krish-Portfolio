@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <>
       <div className="container">
-        <div>
+        <div className="container-child">
         <h1>I'm Krish</h1>
 
         <h4>I'm Developer!</h4>
