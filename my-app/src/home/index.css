@@ -1,17 +1,31 @@
-#img-size{
+#img-size {
     width: 150px;
     height: 150px;
     border-radius: 50%
 }
-.container{
+
+.container {
     display: flex;
     gap: 50px;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 
 }
-.container-child{
-    
+
+.container-child {
+
     border: 1px solid red;
-margin-right: 500px;
-margin-left: 10%;
+    margin-right: 500px;
+    margin-left: 10%;
+}
+
+.experience-container ul {
+    list-style-type: decimal;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+#list-style {
+    display: inline-block
 }
