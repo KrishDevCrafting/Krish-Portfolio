@@ -29,3 +29,18 @@
 #list-style {
     display: inline-block
 }
+
+.container-box {
+    display: flex;
+    justify-content: center;
+}
+
+.mini-box {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+}
+.footer-container{
+    text-align: center;
+}

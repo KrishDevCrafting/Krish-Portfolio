@@ -28,6 +28,27 @@ const Main = () => {
           <li>Express.js</li>
         </ul>
       </div>
+      {/* Section End */}
+      <div className="container-box">
+        <div>
+          <h1 style={{ textAlign: "center" }}>Projects</h1>
+          <div className="mini-box"></div>
+          <div className="mini-box"></div>
+          <div className="mini-box"></div>
+          <div className="mini-box"></div>
+        </div>
+      </div>
+
+      <footer>
+        <div className="footer-container">
+          <h1>Contact</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nostrum
+            dolorum velit quibusdam dolor consequatur repudiandae quae eum illum
+            deserunt.
+          </p>
+        </div>
+      </footer>
     </>
   );
 };
