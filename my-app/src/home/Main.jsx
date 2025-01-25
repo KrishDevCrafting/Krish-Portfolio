@@ -43,9 +43,18 @@ const Main = () => {
         <div className="footer-container">
           <h1>Contact</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nostrum
-            dolorum velit quibusdam dolor consequatur repudiandae quae eum illum
-            deserunt.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus,
+            itaque fugiat! Illum accusantium illo ducimus sequi corrupti,
+            voluptate non, sapiente voluptates, error et excepturi vitae totam
+            ut aliquid libero voluptas dolorum temporibus atque alias neque?
+            Aspernatur rem sit voluptatum ipsum harum voluptate expedita sunt
+            assumenda nulla dolores esse similique consequatur, corrupti
+            suscipit exercitationem, perferendis quo eius, aperiam totam
+            doloremque officiis iure cupiditate hic. Distinctio ea quas tempore
+            voluptas in velit odio ab reiciendis molestias et, minima
+            consequatur fuga voluptate praesentium necessitatibus! Repellat ad
+            fugiat, odit nam eum voluptatum dolores, quod soluta molestias
+            provident possimus. Eum ducimus accusantium delectus nobis! Aperiam?
           </p>
         </div>
       </footer>
