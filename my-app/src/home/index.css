@@ -1,48 +1,144 @@
-#img-size {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  transition: background-color 0.5s ease;
+}
+
+.light-mode {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
 }
 
 .container {
-    display: flex;
-    gap: 50px;
-    justify-content: space-evenly;
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .container-child {
-
-    border: 1px solid red;
-    margin-right: 500px;
-    margin-left: 10%;
+  text-align: left;
 }
 
-.experience-container ul {
-    list-style-type: decimal;
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-
+.container-child h1 {
+  font-size: 3em;
+  margin: 0;
+  animation: fadeIn 2s ease-in-out;
 }
 
-#list-style {
-    display: inline-block
+.container-child h4 {
+  font-size: 1.5em;
+  margin: 10px 0;
+  animation: fadeIn 2s ease-in-out 0.5s;
 }
 
-.container-box {
-    display: flex;
-    justify-content: center;
+.container-child p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  animation: fadeIn 2s ease-in-out 1s;
 }
 
-.mini-box {
-    display: inline-block;
-    width: 200px;
-    height: 200px;
-    border: 1px solid red;
+.buttons {
+  margin-top: 20px;
 }
-.footer-container{
-    text-align: center;
 
+button {
+  background: #ff7e5f;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
-/* love */
+
+button:hover {
+  background: #feb47b;
+  transform: scale(1.1);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-size {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  transition: transform 0.3s ease;
+}
+
+#img-size:hover {
+  transform: rotate(360deg);
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.5s;
+}
+
+.delay-2 {
+  animation-delay: 1s;
+}
+
+.delay-3 {
+  animation-delay: 1.5s;
+}
+
+.delay-4 {
+  animation-delay: 2s;
+}
+
+.delay-5 {
+  animation-delay: 2.5s;
+}
+
+.delay-6 {
+  animation-delay: 3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.toggle-button {
+  background: #ff7e5f;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.toggle-button:hover {
+  background: #feb47b;
+  transform: scale(1.1);
+}
