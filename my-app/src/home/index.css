@@ -91,7 +91,7 @@ button:hover {
 }
 
 .fade-in {
-  opacity: 0;
+  opacity: 9;
   animation: fadeIn 2s forwards;
 }
 
@@ -123,8 +123,8 @@ button:hover {
   from {
     opacity: 0;
   }
-  to {
-    opacity: 1;
+  to{
+    opacity: 9;
   }
 }
 

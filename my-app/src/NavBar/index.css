@@ -5,7 +5,7 @@
 }
 
 .nav-content li {
-    margin: 20px;
+    margin: 0px 10px 10px 10px;
     display: inline-block;
     list-style: none;
 }
