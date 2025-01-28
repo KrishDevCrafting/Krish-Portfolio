@@ -9,3 +9,13 @@
     display: inline-block;
     list-style: none;
 }
+
+.darkmod {
+    color: white;
+    background: #333;
+}
+
+.lightmodde {
+    color: white;
+    background: #333;
+}
