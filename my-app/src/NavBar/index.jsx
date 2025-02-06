@@ -8,9 +8,7 @@ const Nav = () => {
   };
 
   return (
-    <div
-      className={mode ? "nav-container dark-mode" : "nav-container light-mode"}
-    >
+    <div className={mode ? " dark-mode" : " light-mode"}>
       <nav className="navbar">
         <div className="nav-content">
           <ul>
