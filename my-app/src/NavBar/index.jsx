@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import "./index.css";
+import { ThemeContext } from "../home/ThemeContext";
 const Nav = () => {
-  const [mode, setMode] = useState(false);
+  const { theme, setTheme } = useContext(ThemeContext);
 
-  const toggleButton = () => {
-    setMode(!mode);
-  };
+  // const toggleButton = () => {
+  //   setMode(!mode);
+  // };
 
   return (
-    <div className={mode ? " dark-mode" : " light-mode"}>
+    <div>
       <nav className="navbar">
         <div className="nav-content">
           <ul>
@@ -23,7 +24,10 @@ const Nav = () => {
           <ul>
             <li>Github</li>
             <li>
-              <button onClick={toggleButton}>DarkMode</button>
+              <button
+                onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
+                Toggle {theme === "light" ? "Dark" : "Light"} Mode
+              </button>
             </li>
           </ul>
         </div>
