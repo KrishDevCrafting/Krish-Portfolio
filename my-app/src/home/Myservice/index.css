@@ -1,0 +1,21 @@
+.container-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ text-align: center;
+ border: 1px solid black;
+
+}
+
+.container-service-2{
+display: flex;
+justify-content: center;
+gap: 20%;
+}
+
+.container-child-2{
+    margin: 20px;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
