@@ -1,4 +1,5 @@
 import React from "react";
+import img from "../../Assets/red-sunset-mountain-landscape-desktop-wallpaper.jpg";
 
 export default function AboutMe() {
   return (
@@ -13,7 +14,7 @@ export default function AboutMe() {
       </p>
 
       <div>
-        <img src="" alt="" />
+        <img src={img} alt="" />
       </div>
     </div>
   );
