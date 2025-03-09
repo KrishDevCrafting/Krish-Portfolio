@@ -2,3 +2,19 @@
     width: 200px;
     height: 200px;
 }
+.container-about{
+    display: flex;
+
+}
+.container-child-about{
+    border: 1px solid white;
+    width: 50%;
+    margin-left: 20%;
+}
+.img-container{
+    margin-top: 70px;
+    margin-right: 50px;
+}
+#aboutMe-text{
+ margin-left: 20%
+}

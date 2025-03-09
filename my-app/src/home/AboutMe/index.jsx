@@ -4,18 +4,21 @@ import img from "../../Assets/red-sunset-mountain-landscape-desktop-wallpaper.jp
 
 export default function AboutMe() {
   return (
-    <div>
-      <h1>About-Me</h1>
-
+    <div className="container-about">
+     
+      <div>
+      <h1 id="aboutMe-text">About-Me</h1>
+<div className="container-child-about">
       <h3>Transforming visions into exceptional portfolios</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
         nostrum magni! Ipsum eligendi dicta exercitationem quae quo enim
         deserunt quidem?
       </p>
-
-      <div>
-        <img src={img} alt="" id="img-me" />
+      </div>
+      </div>
+      <div className="img-container">
+        <img src={img} alt="img-not-found!" id="img-me" />
       </div>
     </div>
   );
