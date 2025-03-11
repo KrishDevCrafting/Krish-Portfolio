@@ -14,7 +14,9 @@ export default function AboutMe() {
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
         nostrum magni! Ipsum eligendi dicta exercitationem quae quo enim
         deserunt quidem?
+
       </p>
+      <button>Download-CV</button>
       </div>
       </div>
       <div className="img-container">
