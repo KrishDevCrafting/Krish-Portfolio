@@ -142,8 +142,3 @@ button:hover {
   transform: scale(1.1);
 }
 
-.box-design {
-  border: 1px solid greenyellow;
-  width: 10%;
-  padding: 20px;
-}
