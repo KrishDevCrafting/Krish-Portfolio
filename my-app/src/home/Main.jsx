@@ -36,17 +36,7 @@ const Main = () => {
         <img src={img} alt="Profile" id="img-size" />
       </div>
 
-      {/* section-Eduction and skills */}
-      <div className="main-container">
-        <h3>EDUCATION & SKILL</h3>
-
-        <h1>Showcasting your talent amplifying your impact! </h1>
-
-        <div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
+      
     </div>
   );
 };

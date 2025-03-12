@@ -4,6 +4,7 @@ import Main from "./home/Main";
 import Nav from "./NavBar";
 import Myservice from "./home/Myservice";
 import AboutMe from "./home/AboutMe";
+import PageSkill from "./home/Skills";
 
 export default function App() {
   return (
@@ -11,8 +12,9 @@ export default function App() {
       <div>
         <Nav />
         <Main />
-        <Myservice/>
-        <AboutMe/>
+        <Myservice />
+        <AboutMe />
+        <PageSkill />
       </div>
     </ThemeProvider>
   );
