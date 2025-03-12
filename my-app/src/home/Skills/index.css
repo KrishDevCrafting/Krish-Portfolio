@@ -1,5 +1,21 @@
 .box-design {
+  margin: 10px;
   border: 1px solid greenyellow;
-  width: 10%;
+  width: 20%;
   padding: 20px;
+  text-align: center;
+}
+
+.heading-main {
+  text-align: center;
+  color: lightgreen;
+}
+.main-container-child {
+  gap: 50px;
+  margin: 80px;
+  display: flex;
+}
+.main-container-sub-child {
+  border: 1px solid white;
+  width: 50%;
 }
