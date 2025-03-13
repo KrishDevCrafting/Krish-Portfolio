@@ -18,3 +18,14 @@
   border: 1px solid white;
   width: 70%;
 }
+
+.parent-bar {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.child-bar {
+  text-align: left;
+  width: 45%;
+  border: 1px solid white;
+}

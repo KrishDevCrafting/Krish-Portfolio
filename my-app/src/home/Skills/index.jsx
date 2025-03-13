@@ -55,6 +55,19 @@ const PageSkill = () => {
             </p>
           </div>
         </div>
+        {/* dynamic-skill-bar */}
+        <div className="parent-bar">
+          <div className="child-bar">
+            <h1>HTML</h1>
+          </div>
+          <div className="child-bar">
+            <h1>Python</h1>
+          </div>
+        </div>
+        {/* end */}
+
+
+        
       </div>
     </>
   );
