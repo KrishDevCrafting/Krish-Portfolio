@@ -65,9 +65,26 @@ const PageSkill = () => {
           </div>
         </div>
         {/* end */}
-
-
-        
+        {/* 2 */}
+        <div className="parent-bar">
+          <div className="child-bar">
+            <h1>Java</h1>
+          </div>
+          <div className="child-bar">
+            <h1>C++</h1>
+          </div>
+        </div>
+        {/* end */}
+        {/* 3 */}
+        <div className="parent-bar">
+          <div className="child-bar">
+            <h1>CSS</h1>
+          </div>
+          <div className="child-bar">
+            <h1>Javascript</h1>
+          </div>
+        </div>
+        {/* end! */}
       </div>
     </>
   );
