@@ -87,11 +87,11 @@ const PageSkill = () => {
         {/* end! */}
         <div>
           <h1>Hello-world!</h1>
-          <o>
+          <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
             voluptates sit labore qui distinctio quis a quas maxime, aperiam
             amet?
-          </o>
+          </p>
         </div>
       </div>
     </>
