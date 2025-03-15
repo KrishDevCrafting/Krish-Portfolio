@@ -130,10 +130,12 @@ button:hover {
 .toggle-button {
   background: #ff7e5f;
   border: none;
+  color: burlywood;
   padding: 10px 20px;
   margin-top: 20px;
   border-radius: 5px;
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
@@ -141,4 +143,3 @@ button:hover {
   background: #feb47b;
   transform: scale(1.1);
 }
-
