@@ -87,12 +87,11 @@ const PageSkill = () => {
         {/* dynamic-skill-bar */}
         <div className="parent-bar">
           <div className="child-bar">
-            <label >HTML</label>
-            <div>
-            <p className="skill-bar">90%</p>
-            <div
+            <label>HTML</label>
+            <div className="skill-bar">
+              <div
                 className="skill-fill"
-                style={{ width: inView ? "90%" : "0%" }}
+                style={{ width: inView ? "20%" : "0%" }}
               />
             </div>
           </div>
