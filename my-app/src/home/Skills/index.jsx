@@ -97,12 +97,6 @@ const PageSkill = () => {
           </div>
           <div className="child-bar">
             <h1>Python</h1>
-            <div className="skill-bar">
-              <div
-                className="skill-fill"
-                style={{ width: inView ? "20%" : "0%" }}
-              />
-            </div>
           </div>
         </div>
         {/* end */}
@@ -119,7 +113,7 @@ const PageSkill = () => {
           </div>
           <div className="child-bar">
             <h1>C++</h1>
-            <div className="skill-bar">
+             <div className="skill-bar">
               <div
                 className="skill-fill"
                 style={{ width: inView ? "20%" : "0%" }}
@@ -131,8 +125,7 @@ const PageSkill = () => {
         {/* 3 */}
         <div className="parent-bar">
           <div className="child-bar">
-            <h1>CSS</h1>
-
+            <h1>CSS</h1>\
             <div className="skill-bar">
               <div
                 className="skill-fill"
@@ -152,7 +145,7 @@ const PageSkill = () => {
         </div>
         {/* end! */}
 
-        {/* <section id="skills" className="skills-section">
+        <section id="skills" className="skills-section">
           <div className="skill">
             <label>HTML</label>
             <div className="skill-bar">
@@ -183,8 +176,8 @@ const PageSkill = () => {
             </div>
           </div>
 
-          
-        </section> */}
+          {/* Add more skills as needed */}
+        </section>
       </div>
     </>
   );
