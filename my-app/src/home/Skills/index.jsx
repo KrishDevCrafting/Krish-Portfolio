@@ -97,6 +97,12 @@ const PageSkill = () => {
           </div>
           <div className="child-bar">
             <h1>Python</h1>
+            <div className="skill-bar">
+              <div
+                className="skill-fill"
+                style={{ width: inView ? "20%" : "0%" }}
+              />
+            </div>
           </div>
         </div>
         {/* end */}
@@ -104,9 +110,21 @@ const PageSkill = () => {
         <div className="parent-bar">
           <div className="child-bar">
             <h1>Java</h1>
+            <div className="skill-bar">
+              <div
+                className="skill-fill"
+                style={{ width: inView ? "20%" : "0%" }}
+              />
+            </div>
           </div>
           <div className="child-bar">
             <h1>C++</h1>
+            <div className="skill-bar">
+              <div
+                className="skill-fill"
+                style={{ width: inView ? "20%" : "0%" }}
+              />
+            </div>
           </div>
         </div>
         {/* end */}
@@ -114,14 +132,27 @@ const PageSkill = () => {
         <div className="parent-bar">
           <div className="child-bar">
             <h1>CSS</h1>
+
+            <div className="skill-bar">
+              <div
+                className="skill-fill"
+                style={{ width: inView ? "20%" : "0%" }}
+              />
+            </div>
           </div>
           <div className="child-bar">
             <h1>Javascript</h1>
+            <div className="skill-bar">
+              <div
+                className="skill-fill"
+                style={{ width: inView ? "20%" : "0%" }}
+              />
+            </div>
           </div>
         </div>
         {/* end! */}
 
-        <section id="skills" className="skills-section">
+        {/* <section id="skills" className="skills-section">
           <div className="skill">
             <label>HTML</label>
             <div className="skill-bar">
@@ -152,8 +183,8 @@ const PageSkill = () => {
             </div>
           </div>
 
-          {/* Add more skills as needed */}
-        </section>
+          
+        </section> */}
       </div>
     </>
   );
