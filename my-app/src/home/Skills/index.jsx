@@ -4,31 +4,18 @@ const PageSkill = () => {
   const [inView, setInView] = useState(false);
 
   // Detect if the skills section is in the viewport
-  useEffect(() => {
-    const handleScroll = () => {
-      const skillsSection = document.getElementById("skills");
-      if (isInViewport(skillsSection)) {
-        setInView(true);
-      }
-    };
+  
 
-    // Initial check in case the user lands directly on the section
-    handleScroll();
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const isInViewport = (element) => {
-    const rect = element.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <=
-        (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-  };
+  // const isInViewport = (element) => {
+  //   const rect = element.getBoundingClientRect();
+  //   return (
+  //     rect.top >= 0 &&
+  //     rect.left >= 0 &&
+  //     rect.bottom <=
+  //       (window.innerHeight || document.documentElement.clientHeight) &&
+  //     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  //   );
+  // };
 
   return (
     <>
@@ -125,7 +112,7 @@ const PageSkill = () => {
         {/* 3 */}
         <div className="parent-bar">
           <div className="child-bar">
-            <h1>CSS</h1>\
+            <h1>CSS</h1>
             <div className="skill-bar">
               <div
                 className="skill-fill"
@@ -145,39 +132,7 @@ const PageSkill = () => {
         </div>
         {/* end! */}
 
-        <section id="skills" className="skills-section">
-          <div className="skill">
-            <label>HTML</label>
-            <div className="skill-bar">
-              <div
-                className="skill-fill"
-                style={{ width: inView ? "90%" : "0%" }}
-              />
-            </div>
-          </div>
-
-          <div className="skill">
-            <label>CSS</label>
-            <div className="skill-bar">
-              <div
-                className="skill-fill"
-                style={{ width: inView ? "80%" : "0%" }}
-              />
-            </div>
-          </div>
-
-          <div className="skill">
-            <label>JavaScript</label>
-            <div className="skill-bar">
-              <div
-                className="skill-fill"
-                style={{ width: inView ? "70%" : "0%" }}
-              />
-            </div>
-          </div>
-
-          {/* Add more skills as needed */}
-        </section>
+        
       </div>
     </>
   );
