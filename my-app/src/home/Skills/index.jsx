@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./index.css";
+import SkillBar from "./skills";
 const PageSkill = () => {
   const [inView, setInView] = useState(false);
 
   // Detect if the skills section is in the viewport
-  
 
   // const isInViewport = (element) => {
   //   const rect = element.getBoundingClientRect();
@@ -100,7 +100,7 @@ const PageSkill = () => {
           </div>
           <div className="child-bar">
             <h1>C++</h1>
-             <div className="skill-bar">
+            <div className="skill-bar">
               <div
                 className="skill-fill"
                 style={{ width: inView ? "20%" : "0%" }}
@@ -131,8 +131,9 @@ const PageSkill = () => {
           </div>
         </div>
         {/* end! */}
-
-        
+        <div>
+          <SkillBar skill="React" percentage={80} />
+        </div>
       </div>
     </>
   );
