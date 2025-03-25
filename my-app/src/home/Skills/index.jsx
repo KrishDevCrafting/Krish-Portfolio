@@ -75,12 +75,12 @@ const PageSkill = () => {
         <div className="parent-bar">
           <div className="child-bar">
             <label>HTML</label>
-            <div className="skill-bar">
+            {/* <div className="skill-bar">
               <div
                 className="skill-fill"
                 style={{ width: inView ? "20%" : "0%" }}
               />
-            </div>
+            </div> */}
           </div>
           <div className="child-bar">
             <h1>Python</h1>
@@ -91,21 +91,21 @@ const PageSkill = () => {
         <div className="parent-bar">
           <div className="child-bar">
             <h1>Java</h1>
-            <div className="skill-bar">
+            {/* <div className="skill-bar">
               <div
                 className="skill-fill"
                 style={{ width: inView ? "20%" : "0%" }}
               />
-            </div>
+            </div> */}
           </div>
           <div className="child-bar">
             <h1>C++</h1>
-            <div className="skill-bar">
+            {/* <div className="skill-bar">
               <div
                 className="skill-fill"
                 style={{ width: inView ? "20%" : "0%" }}
               />
-            </div>
+            </div> */}
           </div>
         </div>
         {/* end */}
@@ -113,21 +113,21 @@ const PageSkill = () => {
         <div className="parent-bar">
           <div className="child-bar">
             <h1>CSS</h1>
-            <div className="skill-bar">
+            {/* <div className="skill-bar">
               <div
                 className="skill-fill"
                 style={{ width: inView ? "20%" : "0%" }}
               />
-            </div>
+            </div> */}
           </div>
           <div className="child-bar">
             <h1>Javascript</h1>
-            <div className="skill-bar">
+            {/* <div className="skill-bar">
               <div
                 className="skill-fill"
                 style={{ width: inView ? "20%" : "0%" }}
               />
-            </div>
+            </div> */}
           </div>
         </div>
         {/* end! */}
