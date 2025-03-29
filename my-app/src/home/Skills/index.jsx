@@ -1,8 +1,19 @@
 import React, { useState, useEffect } from "react";
 import "./index.css";
-import SkillBar from "./skills";
+// import SkillBar from "./skills";
 const PageSkill = () => {
-  const [inView, setInView] = useState(false);
+  const SkillBar = ({ skill, percentage }) => {
+    return (
+      <div className="parent-bar">
+        <div className="child-bar">
+          <h1>{skill}</h1>
+          <div className="skill-bar">
+            <div className="skill-fill" style={{ width: `${percentage}%` }} />
+          </div>
+        </div>
+      </div>
+    );
+  };
 
   // Detect if the skills section is in the viewport
 
@@ -16,6 +27,25 @@ const PageSkill = () => {
   //     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
   //   );
   // };
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const skillsSection = document.querySelector(".parent-bar");
+      if (skillsSection && isInViewport(skillsSection)) {
+        setInView(true);
+      } else {
+        setInView(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+}
+
 
   return (
     <>
