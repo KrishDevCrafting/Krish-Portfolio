@@ -5,6 +5,7 @@ import Nav from "./NavBar";
 import Myservice from "./home/Myservice";
 import AboutMe from "./home/AboutMe";
 import PageSkill from "./home/Skills";
+import Myprojects from "./home/myProject";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Myservice />
         <AboutMe />
         <PageSkill />
+        <Myprojects/>
       </div>
     </ThemeProvider>
   );
