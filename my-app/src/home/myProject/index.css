@@ -1,0 +1,16 @@
+.parent-container {
+    margin-left: 3%;
+}
+
+.project-parent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-card {
+
+
+    width: 200px;
+    height: 200px;
+    border: 1px solid greenyellow;
+}

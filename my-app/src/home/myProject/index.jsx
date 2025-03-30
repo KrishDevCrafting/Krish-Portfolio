@@ -1,23 +1,19 @@
 import React from "react";
-
+import "./index.css";
 const Myprojects = () => {
-
-return (
-    <div className="container">
-      <h1>My Projects</h1>
-      <div className="project">
-        <h2>Project 1</h2>
-        <p>Description of Project 1</p>
-      </div>
-      <div className="project">
-        <h2>Project 2</h2>
-        <p>Description of Project 2</p>
+  return (
+    <div className="parent-container">
+      <h3>MY RECENT PORTFOLIO</h3>
+      <h1>
+        Elevate your brand to new
+        <br />
+        heights with our portfolio expertise
+      </h1>
+      <div className="project-parent">
+        <div className="project-card"></div>
+        <div className="project-card"> </div>
       </div>
     </div>
   );
-
-
-
-
-}
+};
 export default Myprojects;
