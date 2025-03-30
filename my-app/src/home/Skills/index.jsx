@@ -110,7 +110,7 @@ const PageSkill = () => {
         {/* 2 */}
         <div className="parent-bar">
           <div className="child-bar">
-            <h1>Java</h1>
+            <label>Java</label>
             <div className="skill-bar">
               <div
                 className="skill-fill"
@@ -119,7 +119,7 @@ const PageSkill = () => {
             </div>
           </div>
           <div className="child-bar">
-            <h1>C++</h1>
+            <label>C++</label>
             <div className="skill-bar">
               <div
                 className="skill-fill"
@@ -132,7 +132,7 @@ const PageSkill = () => {
         {/* 3 */}
         <div className="parent-bar">
           <div className="child-bar">
-            <h1>CSS</h1>
+            <label>CSS</label>
             <div className="skill-bar">
               <div
                 className="skill-fill"
@@ -141,7 +141,7 @@ const PageSkill = () => {
             </div>
           </div>
           <div className="child-bar">
-            <h1>Javascript</h1>
+            <label>Javascript</label>
             <div className="skill-bar">
               <div
                 className="skill-fill"
