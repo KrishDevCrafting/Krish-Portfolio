@@ -1,33 +1,20 @@
 import React, { useState, useEffect } from "react";
 import "./index.css";
-// import SkillBar from "./skills";
+
 const PageSkill = () => {
-  const SkillBar = ({ skill, percentage }) => {
-    return (
-      <div className="parent-bar">
-        <div className="child-bar">
-          <h1>{skill}</h1>
-          <div className="skill-bar">
-            <div className="skill-fill" style={{ width: `${percentage}%` }} />
-          </div>
-        </div>
-      </div>
-    );
-  };
+  const [inView, setInView] = useState(false);
 
   // Detect if the skills section is in the viewport
-
-  // const isInViewport = (element) => {
-  //   const rect = element.getBoundingClientRect();
-  //   return (
-  //     rect.top >= 0 &&
-  //     rect.left >= 0 &&
-  //     rect.bottom <=
-  //       (window.innerHeight || document.documentElement.clientHeight) &&
-  //     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  //   );
-  // };
-
+  const isInViewport = (element) => {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,18 +31,15 @@ const PageSkill = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-}
-
 
   return (
     <>
-      {/* section-Eduction and skills */}
-
+      {/* section-Education and skills */}
       <div className="main-container">
         <h3 className="heading-main">EDUCATION & SKILL</h3>
 
         <h1 className="heading-main">
-          Showcasting your talent amplifying your impact!
+          Showcasing your talent amplifying your impact!
         </h1>
 
         <div className="main-container-child">
@@ -105,15 +89,21 @@ const PageSkill = () => {
         <div className="parent-bar">
           <div className="child-bar">
             <label>HTML</label>
-            {/* <div className="skill-bar">
+            <div className="skill-bar">
               <div
                 className="skill-fill"
-                style={{ width: inView ? "20%" : "0%" }}
+                style={{ width: inView ? "80%" : "0%" }}
               />
-            </div> */}
+            </div>
           </div>
           <div className="child-bar">
-            <h1>Python</h1>
+            <label>Python</label>
+            <div className="skill-bar">
+              <div
+                className="skill-fill"
+                style={{ width: inView ? "50%" : "0%" }}
+              ></div>
+            </div>
           </div>
         </div>
         {/* end */}
@@ -121,21 +111,21 @@ const PageSkill = () => {
         <div className="parent-bar">
           <div className="child-bar">
             <h1>Java</h1>
-            {/* <div className="skill-bar">
+            <div className="skill-bar">
               <div
                 className="skill-fill"
                 style={{ width: inView ? "20%" : "0%" }}
               />
-            </div> */}
+            </div>
           </div>
           <div className="child-bar">
             <h1>C++</h1>
-            {/* <div className="skill-bar">
+            <div className="skill-bar">
               <div
                 className="skill-fill"
                 style={{ width: inView ? "20%" : "0%" }}
               />
-            </div> */}
+            </div>
           </div>
         </div>
         {/* end */}
@@ -143,31 +133,27 @@ const PageSkill = () => {
         <div className="parent-bar">
           <div className="child-bar">
             <h1>CSS</h1>
-            {/* <div className="skill-bar">
+            <div className="skill-bar">
               <div
                 className="skill-fill"
                 style={{ width: inView ? "20%" : "0%" }}
               />
-            </div> */}
+            </div>
           </div>
           <div className="child-bar">
             <h1>Javascript</h1>
-            {/* <div className="skill-bar">
+            <div className="skill-bar">
               <div
                 className="skill-fill"
-                style={{ width: inView ? "20%" : "0%" }}
+                style={{ width: inView ? "90%" : "0%" }}
               />
-            </div> */}
+            </div>
           </div>
         </div>
         {/* end! */}
-        <div>
-          <SkillBar skill="React" percentage={80} />
-        </div>
       </div>
     </>
   );
 };
 
 export default PageSkill;
-// hello-world
