@@ -4,13 +4,19 @@
 
 .project-parent {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
 }
 
-.project-card {
+.project-card-1 {
 
 
+    width: 800px;
+    height: 400px;
+    border: 1px solid greenyellow;
+}
+.project-card-2{
     width: 200px;
-    height: 200px;
+    height: 400px;
     border: 1px solid greenyellow;
 }

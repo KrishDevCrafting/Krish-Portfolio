@@ -17,8 +17,8 @@ const Myprojects = () => {
       </div>
       {/* second-line */}
       <div className="project-parent">
-        <div className="project-card"></div>
-        <div className="project-card"> </div>
+        <div className="project-card-1"></div>
+        <div className="project-card-2"> </div>
       </div>
     </>
   );
