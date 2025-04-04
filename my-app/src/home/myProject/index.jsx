@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import redSunimg from "../../Assets/red-sunset-mountain-landscape-desktop-wallpaper.jpg";
 const Myprojects = () => {
   return (
     <>
@@ -17,7 +18,9 @@ const Myprojects = () => {
       </div>
       {/* second-line */}
       <div className="project-parent">
-        <div className="project-card-1"></div>
+        <div className="project-card-1">
+          <img src={redSunimg} alt="img" srcset="" id="img-1"/>
+        </div>
         <div className="project-card-2"> </div>
       </div>
     </>
