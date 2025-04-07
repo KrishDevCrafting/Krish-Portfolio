@@ -29,7 +29,7 @@ const Myprojects = () => {
 
 
 <img src={img2} alt="img" srcset="" id="img-2"  />
-<div className="overlay">
+<div className="overlay-2">
   <h1>Chair-img</h1>
 </div>
         </div>
