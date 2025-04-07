@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import img2 from "../../Assets/ChatGPT Image Apr 7, 2025, 10_30_12 PM.png";
 import redSunimg from "../../Assets/red-sunset-mountain-landscape-desktop-wallpaper.jpg";
 const Myprojects = () => {
   return (
@@ -21,10 +22,17 @@ const Myprojects = () => {
         <div className="project-card-1">
           <img src={redSunimg} alt="img" srcset="" id="img-1" />
           <div className="overlay">
-            <h1>Hello-world</h1>
+            <h1>Sample-Image!</h1>
           </div>
         </div>
-        <div className="project-card-2"> </div>
+        <div className="project-card-2"> 
+
+
+<img src={img2} alt="img" srcset="" id="img-2"  />
+<div className="overlay">
+  <h1>Chair-img</h1>
+</div>
+        </div>
       </div>
     </>
   );
