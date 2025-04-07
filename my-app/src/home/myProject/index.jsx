@@ -20,7 +20,9 @@ const Myprojects = () => {
       <div className="project-parent">
         <div className="project-card-1">
           <img src={redSunimg} alt="img" srcset="" id="img-1" />
-          <div className="overlay"></div>
+          <div className="overlay">
+            <h1>Hello-world</h1>
+          </div>
         </div>
         <div className="project-card-2"> </div>
       </div>
