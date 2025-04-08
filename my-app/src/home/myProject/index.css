@@ -68,3 +68,15 @@ overflow: hidden;
 
         transition: right 0.5s ease;
     }
+
+    /* Third-section-css */
+    .project-parent-2{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .project-card-2{
+        position: relative;
+        overflow: hidden;
+            transition: transform 0.3s ease;
+    }
