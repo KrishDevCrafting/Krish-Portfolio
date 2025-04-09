@@ -71,6 +71,7 @@ overflow: hidden;
 
     /* Third-section-css */
     .project-parent-2{
+        margin-top: 50px;
         display: flex;
         justify-content: center;
         gap: 20px;
