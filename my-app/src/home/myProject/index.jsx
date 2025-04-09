@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import img2 from "../../Assets/ChatGPT Image Apr 7, 2025, 10_30_12 PM.png";
 import redSunimg from "../../Assets/red-sunset-mountain-landscape-desktop-wallpaper.jpg";
+import img3 from "../../Assets/wallpaperflare.com_wallpaper.jpg";
 const Myprojects = () => {
   return (
     <>
@@ -25,47 +26,30 @@ const Myprojects = () => {
             <h1>Sample-Image!</h1>
           </div>
         </div>
-        <div className="project-card-2"> 
-
-
-<img src={img2} alt="img" srcset="" id="img-2"  />
-<div className="overlay-2">
-  <h1>Chair-img</h1>
-</div>
+        <div className="project-card-2">
+          <img src={img2} alt="img" srcset="" id="img-2" />
+          <div className="overlay-2">
+            <h1>Chair-img</h1>
+          </div>
         </div>
-
-
-
-
-
-
-
-
-
-
       </div>
 
-
-
-{/* Third-Line */}
+      {/* Third-Line */}
 
       <div className="project-parent-2">
-        <div className="project-card-2">
-          <img src={redSunimg} alt="img" srcset="" id="img-2" />
-          <div className="overlay">
+        <div className="project-card-3">
+          <img src={img3} alt="img" srcset="" id="img-3" />
+          <div className="overlay-3">
             <h1>Sample-Image!</h1>
           </div>
         </div>
-        <div className="project-card-2"> 
-
-
-<img src={img2} alt="img" srcset="" id="img-2"  />
-<div className="overlay-2">
-  <h1>Chair-img</h1>
-</div>
+        <div className="project-card-2">
+          <img src={img2} alt="img" srcset="" id="img-2" />
+          <div className="overlay-2">
+            <h1>Chair-img</h1>
+          </div>
         </div>
-        </div>
-
+      </div>
     </>
   );
 };
