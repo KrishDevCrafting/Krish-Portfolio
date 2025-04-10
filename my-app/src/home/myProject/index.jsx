@@ -50,6 +50,7 @@ const Myprojects = () => {
           </div>
         </div>
       </div>
+      <marquee direction="right">I'm MotherFucker StarBoy..!</marquee>
     </>
   );
 };
