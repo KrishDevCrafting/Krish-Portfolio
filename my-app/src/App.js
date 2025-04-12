@@ -6,7 +6,7 @@ import Myservice from "./home/Myservice";
 import AboutMe from "./home/AboutMe";
 import PageSkill from "./home/Skills";
 import Myprojects from "./home/myProject";
-
+import Footer from "./Footers";
 export default function App() {
   return (
     <ThemeProvider>
@@ -17,6 +17,7 @@ export default function App() {
         <AboutMe />
         <PageSkill />
         <Myprojects/>
+        <Footer/>
       </div>
     </ThemeProvider>
   );
