@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./index.css"
 export default function Footer() {
   return (
     <footer
@@ -7,7 +7,7 @@ export default function Footer() {
         backgroundColor: "#282c34",
         color: "white",
         padding: "20px",
-        textAlign: "center",
+       
       }}
     >
       <div style={{ marginBottom: "20px" }} className="parent-footer">
