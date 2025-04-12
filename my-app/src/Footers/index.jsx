@@ -1,5 +1,8 @@
 import React from "react";
-import "./index.css"
+import "./index.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+
 export default function Footer() {
   return (
     <footer
@@ -7,11 +10,15 @@ export default function Footer() {
         backgroundColor: "#282c34",
         color: "white",
         padding: "20px",
-       
       }}
     >
       <div style={{ marginBottom: "20px" }} className="parent-footer">
         <div>
+          <p> 
+            <FontAwesomeIcon icon={faLocationDot} 
+            id="location-icon"
+            />
+          </p>
           <h1 style={{ fontSize: "18px", margin: "10px 0" }}>Address</h1>
           <p>123 Main Street, City, Country</p>
         </div>

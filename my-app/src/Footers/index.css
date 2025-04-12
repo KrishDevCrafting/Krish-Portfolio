@@ -3,3 +3,10 @@
     justify-content: space-around;
     align-items: center;
 }
+#location-icon{
+    border-radius: 25% 25% 25% 25%;
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    background: #1DCD9F;
+}
