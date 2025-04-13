@@ -43,6 +43,7 @@ export default function Footer() {
           <p>contact@example.com</p>
         </div>
       </div>
+      <hr></hr>
     </footer>
   );
 }
