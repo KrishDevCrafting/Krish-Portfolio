@@ -1,13 +1,18 @@
 import React, { useContext } from "react";
 import "./index.css";
 import { ThemeContext } from "../home/ThemeContext";
-const Nav = () => {
+const Nav = ({onAboutclick}) => {
   const { theme, setTheme } = useContext(ThemeContext);
+
+
 
   // const toggleButton = () => {
   //   setMode(!mode);
   // };
 
+  
+  
+  
   return (
     <div>
       <nav className="navbar">
@@ -16,7 +21,10 @@ const Nav = () => {
             <li>Home</li>
             <li>Blog</li>
             <li>Project</li>
-            <li>About</li>
+            <button
+            
+            onClick={onAboutclick}
+            ><li>About</li></button>
           </ul>
         </div>
 

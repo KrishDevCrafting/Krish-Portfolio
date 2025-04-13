@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./index.css";
 import img2 from "../../Assets/ChatGPT Image Apr 7, 2025, 10_30_12 PM.png";
 import redSunimg from "../../Assets/red-sunset-mountain-landscape-desktop-wallpaper.jpg";
 import img3 from "../../Assets/wallpaperflare.com_wallpaper.jpg";
 const Myprojects = () => {
+  const value = useRef(null);
+
+  const onscroll = () => {
+    useRef.current?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <div className="parent-container">
