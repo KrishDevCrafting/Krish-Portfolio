@@ -22,7 +22,7 @@ export default function App() {
         <Myservice />
         <AboutMe ref={aboutRef} />
         <PageSkill />
-        <Myprojects />
+        <Myprojects ref={aboutRef} />
         <Footer />
       </div>
     </ThemeProvider>

@@ -1,13 +1,13 @@
-import React, { useRef } from "react";
 import "./index.css";
 import img2 from "../../Assets/ChatGPT Image Apr 7, 2025, 10_30_12 PM.png";
 import redSunimg from "../../Assets/red-sunset-mountain-landscape-desktop-wallpaper.jpg";
 import img3 from "../../Assets/wallpaperflare.com_wallpaper.jpg";
-const Myprojects = () => {
+import { forwardRef } from "react";
+const Myprojects = forwardRef((props, ref) => {
   return (
     <>
       <div className="parent-container">
-        <h3>MY RECENT PORTFOLIO</h3>
+        <h3 ref={ref}>MY RECENT PORTFOLIO</h3>
         <h1>
           Elevate your brand to new
           <br />
@@ -53,5 +53,5 @@ const Myprojects = () => {
       <marquee direction="right">I'm MotherFucker StarBoy..!</marquee>
     </>
   );
-};
+});
 export default Myprojects;
