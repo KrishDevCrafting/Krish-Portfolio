@@ -7,6 +7,8 @@ import AboutMe from "./home/AboutMe";
 import PageSkill from "./home/Skills";
 import Myprojects from "./home/myProject";
 import Footer from "./Footers";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AboutSection from "./Testing/Test1";
 export default function App() {
   const aboutRef = useRef(null);
 
@@ -16,15 +18,20 @@ export default function App() {
 
   return (
     <ThemeProvider>
-      <div>
+      <Router>
         <Nav onAboutclick={scrollToAbout} />
-        <Main />
-        <Myservice />
-        <AboutMe ref={aboutRef} />
-        <PageSkill />
-        <Myprojects ref={aboutRef} />
-        <Footer />
-      </div>
+
+        {/* Routes block should ONLY contain <Route /> elements */}
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/" element={<Myservice />} />
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/skills" element={<PageSkill />} />
+          <Route path="/projects" element={<Myprojects />} />
+          <Route path="/footer" element={<Footer />} />
+          <Route path="/test" element={<AboutSection />} />
+        </Routes>
+      </Router>
     </ThemeProvider>
   );
 }
