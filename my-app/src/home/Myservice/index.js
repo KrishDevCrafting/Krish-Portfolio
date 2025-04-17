@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import { motion } from "framer-motion";
 const Myservice = () => {
   return (
     <>
