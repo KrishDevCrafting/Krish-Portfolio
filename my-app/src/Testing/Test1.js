@@ -8,7 +8,7 @@ const AboutSection = () => {
       whileInView={{ opacity: 1, y: 0 }} // Animate when in view
       transition={{ duration: 0.6, ease: "easeOut" }}
       viewport={{ once: true }} // Animate only once
-      className="p-8 bg-blue-100 rounded-lg"
+      className=""
     >
       <h2 className="text-3xl font-bold">About Me</h2>
       <p>I’m Krish, a passionate developer building awesome stuff 👨‍💻</p>
