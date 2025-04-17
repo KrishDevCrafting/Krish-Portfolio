@@ -8,7 +8,7 @@ const AboutMe = forwardRef((props, ref) => {
       <div ref={ref}>
         <h1 id="aboutMe-text">About-Me</h1>
         <div className="container-child-about">
-          <h3>Transforming visions into exceptional portfolios</h3>
+          <h3>Transforming visions into exceptional portfolio</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda,
             nostrum magni! Ipsum eligendi dicta exercitationem quae quo enim
