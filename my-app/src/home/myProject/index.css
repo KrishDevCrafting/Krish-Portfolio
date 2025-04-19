@@ -26,6 +26,7 @@ overflow: hidden;
 #img-1 {
     width: 800px;
     height: 400px;
+    object-fit:cover;
     border: 1px solid greenyellow;
 }
 .overlay {
@@ -52,7 +53,7 @@ overflow: hidden;
     #img-2{
         width: 200px;
         height: 400px;
-        object-fit:fill;
+        object-fit:cover;
     }
     .overlay-2{
         position: absolute;
