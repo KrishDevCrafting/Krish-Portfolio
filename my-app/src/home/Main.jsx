@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img from "../Assets/love.jpg";
+import img from "../Assets/KrishJAAT.jpeg";
 import "./index.css";
 import { motion } from "framer-motion";
 
