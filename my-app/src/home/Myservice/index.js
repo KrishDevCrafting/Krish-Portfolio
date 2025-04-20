@@ -1,8 +1,29 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./index.css";
 import { motion } from "framer-motion";
 
 const Myservice = () => {
+  const hiddenElementRef = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    });
+
+    hiddenElementRef.current.forEach((el) => {
+      if (el) observer.observe(el);
+    });
+
+    // Cleanup observer on component unmount
+    return () => observer.disconnect();
+  }, []);
+
   const cardVariants = {
     offscreen: { opacity: 0, y: 50 },
     onscreen: {
@@ -27,15 +48,17 @@ const Myservice = () => {
   return (
     <>
       <div className="container-service">
-        <div className="container-child-service">
+        <div
+          className="container-child-service"
+          ref={(el) => hiddenElementRef.current.push(el)}
+        >
           <h1>My Service</h1>
           <h2>Crafting Stories Through</h2>
-          <h2>design and innovation!</h2>
-    
+          <h2>Design and Innovation!</h2>
         </div>
       </div>
 
-      {/* section-2 */}
+      {/* Section-2 */}
       <div className="container-service-2">
         <MotionCard>
           <h1>Website Development</h1>

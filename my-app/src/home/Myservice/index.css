@@ -1,21 +1,33 @@
-.container-service{
+.container-service {
     display: flex;
     justify-content: center;
     align-items: center;
- text-align: center;
- border: 1px solid black;
+    text-align: center;
+    border: 1px solid black;
 
 }
 
-.container-service-2{
-display: flex;
-justify-content: center;
-/* gap: 20%; */
+.container-service-2 {
+    display: flex;
+    justify-content: center;
+    /* gap: 20%; */
 }
 
-.container-child-2{
+.container-child-2 {
     margin: 20px;
-    
-width: 300px;
- height: auto;
+
+    width: 300px;
+    height: auto;
+}
+
+.container-child-service {
+    opacity: 0;
+    transform: translate(50px);
+    transition: opacity 1s ease, tranform 1s ease;
+}
+
+
+.show {
+    opacity: 1;
+    transform: translateY(0)
 }
