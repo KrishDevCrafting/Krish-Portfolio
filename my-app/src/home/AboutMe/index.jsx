@@ -1,6 +1,6 @@
 import React, { forwardRef } from "react";
 import "./index.css";
-import img from "../../Assets/red-sunset-mountain-landscape-desktop-wallpaper.jpg";
+import img from "../../Assets/KrishPhoto.jpg";
 
 const AboutMe = forwardRef((props, ref) => {
   return (

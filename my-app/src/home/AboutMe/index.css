@@ -1,23 +1,27 @@
-#img-me{
-    width: 200px;
-    height: 200px;
+#img-me {
+    width: 400px;
+    height: 486px;
 }
-.container-about{
+
+.container-about {
     display: flex;
 
 }
-.container-child-about{
+
+.container-child-about {
     border: 1px solid white;
     width: 50%;
     margin-left: 30%;
     padding: 20px;
 }
-.img-container{
+
+.img-container {
     margin-top: 70px;
     margin-right: 400px;
 }
-#aboutMe-text{
- margin-left: 20%
- /* talk */
- 
+
+#aboutMe-text {
+    margin-left: 20%
+        /* talk */
+
 }
