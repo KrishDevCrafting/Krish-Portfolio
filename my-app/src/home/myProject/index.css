@@ -1,136 +1,172 @@
- .parent-container {
-     margin-left: 3%;
- }
+/* ==============================
+   Global & Utility Styles
+============================== */
 
- .project-parent {
-     display: flex;
-     justify-content: center;
-     gap: 20px;
- }
+.parent-container {
+    margin-left: 3%;
+}
 
- .project-card-1:hover {
-     opacity: 1;
-     transform: scale(1.05);
+.project-parent,
+.project-parent-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+marquee {
+    color: #030303;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #1DCD9F;
+    padding: 20px;
+    font-family: "Playwrite NG Modern";
+}
 
 
- }
 
- .project-card-1 {
-     position: relative;
-     overflow: hidden;
-     transition: transform 0.3s ease;
- }
+/* ==============================
+   Project Card 1 (Image 1)
+============================== */
+
+.project-card-1 {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.project-card-1:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+#img-1 {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    object-fit: cover;
+    border: 1px solid greenyellow;
+}
+
+.overlay {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.8);
+    transition: bottom 0.5s ease;
+    z-index: 1;
+}
+
+.project-card-1:hover .overlay {
+    bottom: 0;
+}
+
+/* ==============================
+   Project Card 2 (Image 2)
+============================== */
+
+.project-card-2 {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 400px;
+    border: 1px solid greenyellow;
+}
+
+#img-2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-2 {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    transition: right 0.5s ease;
+    z-index: 1;
+}
+
+.project-card-2:hover .overlay-2 {
+    right: 0;
+}
+
+/* ==============================
+   Project Card 3 (Image 3)
+============================== */
+
+.project-card-3 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    border: 1px solid greenyellow;
+    transition: transform 0.3s ease;
+}
+
+#img-3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-3 {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: bottom 0.5s ease;
+    z-index: 1;
+}
+
+.project-card-3:hover .overlay-3 {
+    bottom: 0;
+}
 
 
 
- #img-1 {
-     width: 800px;
-     height: 400px;
-     object-fit: cover;
-     border: 1px solid greenyellow;
- }
+/* @font-face {
+    font-family: "Playwrite NG Modern";
+    src: url('/public/fonts/LondrinaOutline-Regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-optical-sizing: auto;
 
- .overlay {
-     position: absolute;
-     bottom: -100%;
-     left: 0;
-     width: 800px;
-     height: 400px;
-     background: rgb(0, 0, 0, 0.8);
- }
+} */
 
- .project-card-1:hover .overlay {
-     bottom: 1%;
-     height: 100px;
-     transition: bottom 0.5s ease;
- }
 
- /* second-chair-image */
- .project-card-2 {
-     position: relative;
-     overflow: hidden;
-     width: 200px;
-     height: 400px;
-     border: 1px solid greenyellow;
- }
+.scrolling-text {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background-color: #1DCD9F;
+    padding: 20px;
+}
 
- #img-2 {
-     width: 200px;
-     height: 400px;
-     object-fit: cover;
- }
+.scrolling-text span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll-text 10s linear infinite;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "Playwrite NG Modern", sans-serif;
+    color: #030303;
+}
 
- .overlay-2 {
-     position: absolute;
-
-     top: 0;
-     right: -100%;
-     width: 100%;
-     height: 100%;
-     background: rgb(0, 0, 0, 0.8);
- }
-
- .project-card-2:hover .overlay-2 {
-     right: 0;
-
-     transition: right 0.5s ease;
- }
-
- /* Third-section-css */
- .project-parent-2 {
-     margin-top: 50px;
-     display: flex;
-     justify-content: center;
-     gap: 20px;
- }
-
- #img-3 {
-     width: 500px;
-     height: 400px;
-     object-fit: cover;
- }
-
- .project-card-3 {
-     position: relative;
-
-     overflow: hidden;
-     width: 500px;
-     height: 400px;
-     border: 1px solid greenyellow;
-
-     transition: transform 0.3s ease;
- }
-
-  .overlay-3 {
-     position: absolute;
-
-     bottom: -100%;
-     width: 100%;
-     height: 100%;
-     background-color: rgb(0, 0, 0, 0.8);
- }
-
- .project-card-3:hover .overlay-3 {
-     bottom: 0;
-     transition: bottom 0.5s ease;
- }
-
- marquee {
-    
-     color: #030303;
-     font-size: 100px;
-     font-weight: bold;
-     margin-top: 20px;
-     background-color: #1DCD9F;
-     padding: 20px;
-     font-family: "Playwrite NG Modern";
- }
-
- @font-face {
-     font-family: "Playwrite NG Modern";
-     src: url('/public/fonts/LondrinaOutline-Regular.ttf') format('truetype');
-     font-weight: 100;
-     font-style: normal;
-     font-optical-sizing: auto;
-
- }
+@keyframes scroll-text {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

@@ -21,13 +21,13 @@ const Myprojects = forwardRef((props, ref) => {
       {/* second-line */}
       <div className="project-parent">
         <div className="project-card-1">
-          {/* <img src={redSunimg} alt="img" srcset="" id="img-1" /> */}
+          <img src={redSunimg} alt="img" srcset="" id="img-1" />
           <div className="overlay">
             <h1>Sample-Image!</h1>
           </div>
         </div>
         <div className="project-card-2">
-          {/* <img src={img2} alt="img" srcset="" id="img-2" /> */}
+          <img src={img2} alt="img" srcset="" id="img-2" />
           <div className="overlay-2">
             <h1>Chair-img</h1>
           </div>
@@ -50,7 +50,9 @@ const Myprojects = forwardRef((props, ref) => {
           </div>
         </div>
       </div>
-      <marquee direction="right">I'm MotherFucker StarBoy..!</marquee>
+      <div class="scrolling-text">
+        <span>I'm MotherFucker StarBoy..!</span>
+      </div>
     </>
   );
 });
