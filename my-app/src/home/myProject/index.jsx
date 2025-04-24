@@ -50,9 +50,9 @@ const Myprojects = forwardRef((props, ref) => {
           </div>
         </div>
       </div>
-      <div class="scrolling-text">
+      {/* <div class="scrolling-text">
         <span>I'm MotherFucker StarBoy..!</span>
-      </div>
+      </div> */}
     </>
   );
 });

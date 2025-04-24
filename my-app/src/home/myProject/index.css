@@ -145,6 +145,8 @@ marquee {
 
 
 .scrolling-text {
+    overflow-y: auto;
+    border: 10px solid red;
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
