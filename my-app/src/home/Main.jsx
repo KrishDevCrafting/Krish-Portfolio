@@ -45,8 +45,10 @@ const Main = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7 }}
           >
-            Passionate about building web applications and learning new
-            technologies.
+            Driven by passion and curiosity, I love building dynamic,
+            responsive, and user-focused web applications. My journey as a
+            developer is fueled by continuous learning and a strong desire to
+            stay ahead in the ever-evolving tech world.
           </motion.p>
 
           <motion.p
@@ -54,8 +56,13 @@ const Main = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.9 }}
           >
-            I specialize in front-end development and have experience with
-            various frameworks and libraries.
+            I specialize in front-end development, crafting engaging user
+            interfaces and seamless user experiences using modern frameworks and
+            libraries like React, Tailwind CSS, and JavaScript. I enjoy turning
+            complex problems into elegant, efficient solutions that deliver real
+            value. Always eager to explore new tools and technologies, I believe
+            in writing clean, scalable code and contributing to projects that
+            make a meaningful impact.
           </motion.p>
 
           <motion.div
