@@ -1,5 +1,5 @@
 .footer {
-  width: 100%;
+  width: 97.6%;
   background: #0a0a0a;
   color: #eee;
   padding: 3rem 1rem 1rem;
@@ -11,7 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
+  width: 50%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
