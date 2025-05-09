@@ -97,6 +97,8 @@
     transform: translateX(-100%);
   }
 
+  /* god bless You! */
+
   100% {
     transform: translateX(0);
   }
