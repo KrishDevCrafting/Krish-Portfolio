@@ -1,8 +1,13 @@
 import React, { forwardRef } from "react";
 import "./index.css";
 import img from "../../Assets/KrishPhoto.jpg";
-
 const AboutMe = forwardRef((props, ref) => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "../../Assets/KRISH-Resume.pdf";
+    link.download = "Assets/KRISH-Resume.pdf";
+    link.click();
+  };
   return (
     <div className="container-about">
       <div ref={ref}>
@@ -14,7 +19,7 @@ const AboutMe = forwardRef((props, ref) => {
             nostrum magni! Ipsum eligendi dicta exercitationem quae quo enim
             deserunt quidem?
           </p>
-          <button>Download-CV</button>
+          <button onClick={handleDownload}>Download-CV</button>
         </div>
       </div>
       <div className="img-container">
