@@ -80,7 +80,7 @@ const Myprojects = forwardRef((props, ref) => {
             <h4>Connect</h4>
             <div className="social-icons">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/KrishDevCrafting"
                 target="_blank"
                 rel="noopener noreferrer"
               >
