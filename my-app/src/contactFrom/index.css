@@ -5,7 +5,7 @@
     width: 400px;
     padding: 40px;
     transform: translate(-50%, -50%);
-    background: rgba(24, 20, 20, 0.987);
+    /* background: rgba(24, 20, 20, 0.987); */
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
     border-radius: 10px;
@@ -92,3 +92,18 @@
     background: linear-gradient(90deg, transparent, #03f40f);
     animation: btn-anim1 2s linear infinite;
   }
+
+  /* Swtich */
+
+
+  /* .light-mode {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #1e1e1e;
+}
+
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+} */
