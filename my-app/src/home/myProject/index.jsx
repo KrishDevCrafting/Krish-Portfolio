@@ -87,13 +87,13 @@ const Myprojects = forwardRef((props, ref) => {
                 GitHub
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/krish-singh-7939b1294/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 LinkedIn
               </a>
-              <a href="mailto:your@email.com">Email</a>
+              <a href="mailto:krishgeek77@gmail.com">Email</a>
             </div>
           </div>
         </div>
