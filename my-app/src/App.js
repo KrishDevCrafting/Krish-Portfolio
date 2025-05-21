@@ -13,7 +13,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Form />} />
-          <Route path="/test" element={<AboutSection />} />
+          {/* <Route path="/test" element={<AboutSection />} /> */}
         </Routes>
       </Router>
     </ThemeProvider>
