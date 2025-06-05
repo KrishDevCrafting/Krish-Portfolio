@@ -8,13 +8,13 @@ body {
   transition: background-color 0.5s ease;
 }
 
-.light-mode {
+.light-mode a {
   background-color: #f0f0f0;
   color: #333;
   border: 1px solid #1e1e1e;
 }
 
-.dark-mode {
+.dark-mode a {
   background-color: #1e1e1e;
   color: #f0f0f0;
   border: 1px solid #f0f0f0;
@@ -34,7 +34,7 @@ body {
   /* flex-direction: row; */
   align-items: center;
   justify-content: center;
-  
+
   width: 80%;
   padding: 20px;
   border-radius: 10px;
@@ -43,7 +43,6 @@ body {
 }
 
 .container-child {
-  
 }
 
 .container-child h1 {

@@ -14,13 +14,27 @@ body {
   color: black;
   transition: all 0.3s ease-in-out;
 }
+/* navbar text light-mode or dark-Mode */
+body.light a {
+  text-decoration: none;
+  color: black;
+}
 
+body.dark a {
+  text-decoration: none;
+  color: white;
+}
+/* navbar text dark-mode */
 /* Dark Mode */
 body.dark {
   background-color: black;
   color: white;
 }
 
+/* body.light a {
+  color: black;
+  text-decoration: none;
+} */
 /* Button Style */
 button {
   padding: 10px 15px;
@@ -38,3 +52,25 @@ body.dark button {
   color: black;
 }
 
+.menu-toggle {
+  font-size: 2rem;
+  cursor: pointer;
+  display: block;
+}
+
+/* media-query */
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    gap: 20px;
+    background: none;
+    width: auto;
+  }
+}
